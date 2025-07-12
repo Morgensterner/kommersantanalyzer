@@ -1,2 +1,10 @@
-# kommersantanalyzer
-Analyzing press
+# Kommersant Analyzer
+
+Разметка архивов газеты «Коммерсант» по Петербургу за 1990-е годы.
+
+## Как использовать
+
+1. Положите текстовые файлы в папку `data/`, например `kommersant-1993.txt`
+2. Запустите скрипт:
+   ```bash
+   python3 split_kommersant.py
